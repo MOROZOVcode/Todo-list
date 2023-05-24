@@ -1,0 +1,359 @@
+body {
+	font-family: 'Monda', sans-serif;
+	color: #FFFFFF;
+	background: #181824;
+}
+
+/* HEADER */
+
+.header {
+	width: 100%;
+	padding: 13px 59px 58px;
+}
+
+.header_wrapper {
+	font-size: 96px;
+	line-height: 156px;
+	letter-spacing: 0.1em;
+}
+
+/* MAIN */
+
+.main {
+	width: 100%;
+	font-size: 36px;
+	line-height: 56px;
+	letter-spacing: 0.1em;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.main_container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.main_wrapper {
+	width: 100%;
+	max-width: 666px;
+}
+
+/* form */
+
+.form_wrapper {
+	height: 120px;
+}
+
+.form {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	width: 100%;
+	max-width: 666px;
+	height: 68.56px;
+	background-color: #181824;
+	border-radius: 32px;
+	z-index: 20;
+	box-shadow: 0 0 6px 2px #181824;
+}
+
+/* поле для ввода новой Todo */
+
+.input {
+	width: 100%;
+	height: 100%;
+	max-width: 552px;
+	background: #25273C;
+	padding-left: 33px;
+	border-radius: 30px 0 0 30px;
+	color: #FFFFFF;
+}
+
+/* кнопка ДОБАВИТЬ Todo */
+
+.btn {
+	width: 110.43px;
+	height: 68.56px;
+	border-radius: 0px 30px 30px 0px;
+	background: url(resources/Arrow.png) no-repeat;
+	background-position: center;
+	transition: .23s;
+	background-color: rgba(90, 255, 49, 0.6);
+}
+
+.btn:hover {
+	background-color: #AD02FE;
+	background-size: 48%;
+	transition: .23s;
+}
+
+.btn:active {
+	background-color: #AD02FE;
+	background-size: 40%;
+	transition: .23s;
+}
+
+/* весь список Todos */
+
+.output {
+	background: #25273C;
+	padding-left: 70px;
+	padding-right: 76px;
+}
+
+.output>div {
+	display: flex;
+	align-items: center;
+	min-height: 82.49px;
+	border-bottom: 4px solid rgba(72, 64, 64, 0.37);
+	position: relative;
+}
+
+.output>div:last-child {
+	border-bottom: none;
+}
+
+/* checkbox */
+
+input[ type='checkbox'] {
+	display: none;
+}
+
+.output>div>label::before {
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 2px solid rgba(191, 86, 255, 0.79);
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-left: -46px;
+	margin-right: 26px;
+	transition: .15s;
+	background: url(resources/Check-true.png) no-repeat;
+	background-position: center;
+	background-size: 0;
+}
+
+.output>div>label:hover::before {
+	background-color: #ae02fe21;
+	border: 3px solid rgba(191, 86, 255, 0.79);
+}
+
+input[ type='checkbox']:checked+label::before {
+	background-position: center;
+	background-size: 122%;
+}
+
+input[ type='checkbox']:checked+label:hover::before {
+	background-size: 105%;
+	border: 2px solid rgba(191, 86, 255, 0.79);
+}
+
+/* кнопка " Х " */
+
+.output>div>button {
+	position: absolute;
+	right: -65px;
+	height: 100%;
+	width: 55px;
+	text-align: center;
+	font-size: 55px;
+	background-color: transparent;
+	color: rgb(111, 111, 111, 0.5);
+	transition: .15s;
+}
+
+.output>div>button:hover {
+	color: rgb(58, 58, 58);
+}
+
+.output>div>button:active {
+	font-size: 43px;
+}
+
+/* текст в Todo */
+
+.cross-line>label {
+	text-decoration: line-through rgba(255, 255, 255, 0.5);
+	color: rgba(15, 144, 162, 0.57);
+	transition: .2s;
+	transform: rotate(0deg);
+}
+
+label {
+	cursor: pointer;
+	transition: .3s;
+}
+
+label:hover {
+	color: rgba(255, 255, 255, 0.526);
+}
+
+.cross-line>label:hover {
+	color: rgba(83, 150, 158, 0.711);
+}
+
+/* FOOTER */
+
+.footer {
+	height: 60px;
+	background: #25273c;
+}
+
+.footer_container {
+	width: 100%;
+	max-width: 666px;
+	background-color: #181824;
+	z-index: 20;
+	box-shadow: 0 0 15px 2px #181824;
+}
+
+.footer_wrapper {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	background: #25273C;
+	border: 2px solid #AD02FE;
+	padding: 0 24px;
+	/* position: relative; */
+
+	align-items: center;
+	font-size: 24px;
+	line-height: 39px;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* кнопки Up и Down */
+
+.scroll {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.btn-up {
+	width: 50px;
+	height: 26px;
+	background: transparent;
+	background: url(resources/Up.png) no-repeat;
+	background-position: center;
+	background-size: 100%;
+	opacity: 0;
+	cursor: "default";
+	transition: opacity .6s;
+}
+
+.btn-down {
+	width: 50px;
+	height: 26px;
+	background: url(resources/Down.png) no-repeat;
+	background-position: center;
+	background-size: 100%;
+	opacity: 0;
+	cursor: "default";
+	transition: opacity .6s;
+}
+
+.btn-up:active {
+	background-size: 85%;
+}
+
+.btn-down:active {
+	background-size: 85%;
+}
+
+/* кнопка Clear All */
+
+.clear-btn {
+	width: 130px;
+	color: #FFFFFF;
+	background-color: transparent;
+	transition: .3s;
+}
+
+.clear-btn:hover {
+	color: rgba(15, 144, 162, 0.57);
+}
+
+.clear-btn:active {
+	color: rgba(15, 145, 162, 0.386);
+	transition: none;
+	font-size: 23px;
+}
+
+@media (max-width: 666px) {
+	.header {
+		text-align: center;
+		width: 100%;
+		padding: 13px 59px 13px;
+	}
+
+	.footer_wrapper {
+		height: 70px;
+	}
+
+	.main {
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+	.output>div>label:before {
+		width: 36px;
+		height: 36px;
+	}
+
+	.footer {
+		height: 72px;
+	}
+}
+
+@media (max-width: 555px) {
+	.header {
+		padding: 0 59px;
+	}
+
+	.main {
+		font-size: 28px;
+		line-height: 40px;
+	}
+
+	.output>div>label:before {
+		width: 32px;
+		height: 32px;
+	}
+}
+
+@media (max-width: 400px) {
+	.header {
+		padding: 0;
+	}
+
+	.main {
+		font-size: 23px;
+		line-height: 32px;
+	}
+
+	.output {
+		padding-left: 56px;
+		padding-right: 65px;
+	}
+
+	.output>div {
+		min-height: 58px;
+	}
+
+	.output>div>label:before {
+		width: 32px;
+		height: 32px;
+	}
+
+	.footer_wrapper {
+		font-size: 21px;
+		padding: 0 8px;
+	}
+}
