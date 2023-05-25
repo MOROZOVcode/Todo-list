@@ -1,0 +1,63 @@
+### Приложение TODO (список дел) с подключеным Firebase в качестве бэкенда.
+
+Это приложение было создано мной в рамках учебного проекта. За основу был взят макет с Figma, после чего написана бизнес логика и затем подключен Firebase.
+
+После завершения разработки, приложение было мною модернизировано по участи UI и UX.
+
+---
+
+- Скриншоты интерфейса проложения:
+
+![screenshot](https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list1.png)
+
+![screenshot](https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list2.png)
+
+![screenshot](https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list3.png)
+
+- Скринкасты взаимодействия с приложением:
+
+Добавить запись
+![screencast](https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list1.gif)
+
+Перемещение по списку
+![screencast](https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list2.gif)
+
+Выбор записи / отмена выбора / удаление записи
+![screencast](https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list3.gif)
+
+Удаление всех записей
+![screencast](https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list4.gif)
+
+---
+
+- Скриншоты интерфейса проложения (мобильная версия):
+
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile1.jpg" alt="screenshot" width="50%"/>
+
+<br>
+
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile2.jpg" alt="screenshot" width="50%"/>
+
+<br>
+
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile3.jpg" alt="screenshot" width="50%"/>
+
+<br>
+
+- Скринкаст взаимодействия с приложением (мобильная версия):
+
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile.gif" alt="screencast" width="60%"/>
+
+---
+
+> В моём личном блоге есть [_**пост**_](https://t.me/morozov_code/66) об этом проекте.
+
+> Открыть приложение можно по ссылке: [morozovcode.github.io/Todo-list](https://morozovcode.github.io/Todo-list/)
+
+> Запуск проекта:
+
+```
+$ git clone https://github.com/MOROZOVcode/Todo-list.git
+$ cd Todo-list
+$ npm instal
+```
