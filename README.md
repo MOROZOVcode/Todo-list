@@ -32,21 +32,21 @@
 
 - Скриншоты интерфейса проложения (мобильная версия):
 
-<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile1.jpg" alt="screenshot" width="50%"/>
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile1.jpg" alt="screenshot" width="40%"/>
 
 <br>
 
-<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile2.jpg" alt="screenshot" width="50%"/>
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile2.jpg" alt="screenshot" width="40%"/>
 
 <br>
 
-<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile3.jpg" alt="screenshot" width="50%"/>
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile3.jpg" alt="screenshot" width="40%"/>
 
 <br>
 
 - Скринкаст взаимодействия с приложением (мобильная версия):
 
-<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile.gif" alt="screencast" width="60%"/>
+<img src="https://github.com/MOROZOVcode/Todo-list/blob/main/forReadme/Todo-list_mobile.gif" alt="screencast" width="50%"/>
 
 ---
 
