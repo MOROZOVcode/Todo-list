@@ -54,10 +54,20 @@
 
 > Открыть приложение можно по ссылке: [morozovcode.github.io/Todo-list](https://morozovcode.github.io/Todo-list/)
 
-> Запуск проекта:
+- **Установить проект к себе можно следующим образом**:
+
+1. В терминале вводим следующие команды:
 
 ```
 $ git clone https://github.com/MOROZOVcode/Todo-list.git
 $ cd Todo-list
 $ npm instal
 ```
+
+2. Чтобы открыть сайт в режиме разработки, нужно ввести следующую команду:
+
+```
+$ npm run start
+```
+
+3. Затем перейти по ссылке http://localhost:1234
